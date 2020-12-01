@@ -1,0 +1,10 @@
+.header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: $z-index-header;
+
+	background-color: $bg-secondary;
+	width: calc(100% - #{$width-sidebar});
+	height: 30px;
+}

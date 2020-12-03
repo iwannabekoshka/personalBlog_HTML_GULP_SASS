@@ -16,10 +16,15 @@ body {
 *:after {
 	box-sizing: border-box;
 }
+ul, li {
+	list-style: none;
+}
 
 /* Blocks */
 @import "blocks/page";
 @import "blocks/header";
+@import "blocks/nav";
+@import "blocks/search";
 @import "blocks/sidebar";
 @import "blocks/profile";
 @import "blocks/social";
